@@ -1,2 +1,5 @@
-# eti
-Nowa, lepsza wersja strony dla Elitarnego Technikum Informatycznego. 
+# Elitarne Technikum Informatyczne &copy; 2023
+
+
+
+###### Autorzy: [naroors](https://naroors.pl)

@@ -1,4 +1,4 @@
-# ![ETI](https://i.imgur.com/0D5JH4n.png) 
+# ![ETI](https://i.imgur.com/JLDZBtE.png) 
 
 
 ### Ten plik będzie edytowany wraz z następnymi aktualizacjami. 

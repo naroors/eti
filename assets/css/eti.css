@@ -23,7 +23,20 @@
 /* Variables */
 :root {
     --font: 'Inter', sans-serif;
-    --fs: 1rem;
+    --fw400: 400;
+    --fw500: 500;
+    --fw600: 600;
+    --fw700: 700;
+    --fs-def: 1rem;
+    --fs-sm: 0.875rem;
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.25rem;
+    --fs-xxl: 1.5rem;
+    --fs-xxxl: 2rem;
+
+
+    /* Colors */
+    --primary: #2f80ed;
 }
 
 * {
@@ -31,3 +44,64 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: var(--font);
+}
+
+/* Typography */
+h1 {
+    font-size: var(--fs-xxxl);
+    font-weight: var(--fw600);
+    line-height: 1.4;
+}
+
+h2 {
+    font-size: var(--fs-xxl);
+    font-weight: var(--fw600);
+    line-height: 1.4;
+}
+
+h3 {
+    font-size: var(--fs-xl);
+    font-weight: var(--fw600);
+    line-height: 1.4;
+}
+
+h4 {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw600);
+    line-height: 1.4;
+}
+
+h5 {
+    font-size: var(--fs-def);
+    font-weight: var(--fw600);
+    line-height: 1.4;
+}
+
+h6 {
+    font-size: var(--fs-sm);
+    font-weight: var(--fw600);
+    line-height: 1.4;
+}
+
+p {
+    font-size: var(--fs-def);
+    font-weight: var(--fw400);
+    line-height: 1.4;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+

@@ -19,7 +19,15 @@
  * Na przykład, można użyć klasy `.width-100` do ustawienia szerokości elementu na 100px, lub użyć klasy `.width-50-p` do ustawienia szerokości na 50% kontenera nadrzędnego.
  * Podobnie, można użyć klasy `.m-2` do dodania marginesu 1rem do elementu, lub użyć klasy `.pt-3` do dodania wypełnienia górnego 1.5rem.
  * 
- * Korzystając z tych klas narzędziowych, można łatwo stylizować elementy bez pisania niestandardowego CSS dla każdego indywidualnego elementu.
+ * Tutaj przykład jak łatwo wycentrować diva w poziomie i pionie:
+ * <div class="flex justify-center align-center width-100-p height-100-p">
+ *     <div class="width-200 height-200 bg-gray-200"></div>
+ * </div>
+ *
+ * Korzystając z tych klas narzędziowych, można łatwo stylizować elementy bez pisania niestandardowego CSS 
+ * dla każdego indywidualnego elementu.
+ *
+ * ~ sporządzone przez @naroors.
  */
 :root {
     /* Slate */

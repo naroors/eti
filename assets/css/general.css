@@ -1,3 +1,26 @@
+/**
+ * eti/assets/css/general.css
+ * 
+ * Ten plik zawiera zbiór klas CSS narzędziowych, które ułatwiają stylizację elementów.
+ * 
+ * Klasa narzędziowa obejmuje:
+ * - Klasy szerokości: `.width-100`, `.width-200`, ..., `.width-1000`, `.width-100-p`, ..., `.width-5-p`
+ * - Klasy wysokości: `.height-100`, `.height-200`, ..., `.height-1000`, `.height-100-p`, ..., `.height-5-p`
+ * - Klasy marginesu: `.m-1`, `.m-2`, ..., `.m-10`
+ * - Klasy marginesu górnego: `.mt-1`, `.mt-2`, ..., `.mt-10`
+ * - Klasy marginesu prawego: `.mr-1`, `.mr-2`, ..., `.mr-10`
+ * - Klasy marginesu dolnego: `.mb-1`, `.mb-2`, ..., `.mb-10`
+ * - Klasy marginesu lewego: `.ml-1`, `.ml-2`, ..., `.ml-10`
+ * - Klasy wypełnienia: `.p-1`, `.p-2`, ..., `.p-10`
+ * - Klasy wypełnienia górnego: `.pt-1`, `.pt-2`, ..., `.pt-10`
+ * - Klasy wypełnienia prawego: `.pr-1`, `.pr-2`, ..., `.pr-10`
+ * 
+ * Te klasy narzędziowe można zastosować do elementów, aby szybko ustawić ich szerokość, wysokość, margines i wypełnienie.
+ * Na przykład, można użyć klasy `.width-100` do ustawienia szerokości elementu na 100px, lub użyć klasy `.width-50-p` do ustawienia szerokości na 50% kontenera nadrzędnego.
+ * Podobnie, można użyć klasy `.m-2` do dodania marginesu 1rem do elementu, lub użyć klasy `.pt-3` do dodania wypełnienia górnego 1.5rem.
+ * 
+ * Korzystając z tych klas narzędziowych, można łatwo stylizować elementy bez pisania niestandardowego CSS dla każdego indywidualnego elementu.
+ */
 :root {
     /* Slate */
     --slate-50: #f8fafc;
